@@ -16,7 +16,7 @@
 		0F4A93122B163106008EDDDB /* toDoApp.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 0F4A93112B163106008EDDDB /* toDoApp.xcworkspace */; };
 		0F4A93142B163167008EDDDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A93132B163167008EDDDB /* AppDelegate.swift */; };
 		0F501D4F2B17632A00B4B03C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F501D4E2B17632A00B4B03C /* ViewController.swift */; };
-		0FB1995A2B0E3316005DCD57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB199592B0E3316005DCD57 /* Main.storyboard */; };
+		0F501D542B1B063200B4B03C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F501D532B1B063200B4B03C /* Main.storyboard */; };
 		0FC436BE2B026B8100AB362F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC436BD2B026B8100AB362F /* Assets.xcassets */; };
 		0FC436C12B026B8100AB362F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC436C02B026B8100AB362F /* Preview Assets.xcassets */; };
 		642930F402721D6D71657C32 /* Pods_toDoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CA751FEBFA0A7C307BB27C /* Pods_toDoApp.framework */; };
@@ -32,7 +32,7 @@
 		0F4A93112B163106008EDDDB /* toDoApp.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = toDoApp.xcworkspace; sourceTree = "<group>"; };
 		0F4A93132B163167008EDDDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F501D4E2B17632A00B4B03C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0FB199592B0E3316005DCD57 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0F501D532B1B063200B4B03C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0FC436B62B026B7900AB362F /* toDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC436BD2B026B8100AB362F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FC436C02B026B8100AB362F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -83,9 +83,9 @@
 				0F4A930B2B10EE90008EDDDB /* GoogleService-Info.plist */,
 				0FC436BD2B026B8100AB362F /* Assets.xcassets */,
 				0FC436BF2B026B8100AB362F /* Preview Content */,
-				0FB199592B0E3316005DCD57 /* Main.storyboard */,
 				0F4A93132B163167008EDDDB /* AppDelegate.swift */,
 				0F501D4E2B17632A00B4B03C /* ViewController.swift */,
+				0F501D532B1B063200B4B03C /* Main.storyboard */,
 			);
 			path = toDoApp;
 			sourceTree = "<group>";
@@ -176,10 +176,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F501D542B1B063200B4B03C /* Main.storyboard in Resources */,
 				0F4A93122B163106008EDDDB /* toDoApp.xcworkspace in Resources */,
 				0F4A93102B1630FD008EDDDB /* Podfile.lock in Resources */,
 				0F4A930E2B162D52008EDDDB /* Podfile in Resources */,
-				0FB1995A2B0E3316005DCD57 /* Main.storyboard in Resources */,
 				0F4A930C2B10EE90008EDDDB /* GoogleService-Info.plist in Resources */,
 				0FC436C12B026B8100AB362F /* Preview Assets.xcassets in Resources */,
 				0FC436BE2B026B8100AB362F /* Assets.xcassets in Resources */,
