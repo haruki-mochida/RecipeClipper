@@ -58,6 +58,17 @@ class TodoListViewController: UIViewController,UITableViewDelegate,UITableViewDa
             })
         }
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let storyboard: UIStoryboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "TodoEditViewController") as! TodoEditViewController
+        next.todoId = todoIdArray[indexPath.row]
+        next.todoTitle = todoTitleArray[indexPath.row]
+        next.todoDetail = todoDetailArray[indexPath.row]
+        next.todoIsDone = todoIsDoneArray[indexPath.row]
+        self.present(next, animated: true, completion: nil)
+    }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return todoTitleArray.count
